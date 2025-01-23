@@ -1,4 +1,18 @@
 .Main_container {
     background-color: #bbd0ff;
-    min-height: 100vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_container_menor {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+    height: 50vh;
 }
